@@ -1,0 +1,6 @@
+	   entrada,previsao,km_entrada,km_saida,os,id_veiculo,marcar,ar,alarme,dh_cambio,
+            automatico,automatizado,cvt,manuel,abs,airbag,qxq,qx2,gasolina,etanol,flex,gnv,disel,
+            estepe,macaco,chave_de_roda,triangulo,antena,vidro_eletrico,trava_eletrica,calotas,
+            para_brisa_trincado,radio,corta_corrente,extintor,buzina,protetor_carter,chave_segredo,
+            tapetes,acendedor,ano,corpredominante,chassis,codmotor,valvulas,cilindros,cilindradas,
+            seguro,luzanomalia 

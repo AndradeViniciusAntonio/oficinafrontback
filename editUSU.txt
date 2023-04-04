@@ -1,0 +1,26 @@
+const axios = require('axios');
+
+const editarusuario = (usuario) => {
+  const { id, nome, email, senha, login, perfil, setor, ativo } = usuario;
+
+  axios.patch('/caminho/para/rota/usuario', {
+    id: id,
+    nome: nome,
+    email: email,
+    senha: senha,
+    login: login,
+    perfil: perfil,
+    setor: setor,
+    ativo: ativo
+  })
+  .then((response) => {
+    console.log(response.data.mensagem);
+    // Faça algo aqui para atualizar a interface do usuário com as novas informações
+  })
+  .catch((error) => {
+    console.error(error.response.data.error);
+    // Faça algo aqui para exibir uma mensagem de erro ao usuário
+  });
+};
+
+module.exports = editarusuario;
